@@ -27,3 +27,8 @@ main{
     background-size: cover;
     background-repeat: no-repeat;
 }
+.mapa{
+    height: 300px;
+    width: 100%;
+    border: 0;
+}
