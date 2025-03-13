@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+header{
+    background-color: aqua;
+}
+h2{
+    color: green;
+}
+p{
+    text-align: justify;
+}
+.carousel-item{
+    height: 400px;
+}
+.grid:hover{
+    transform: translateY(-10px);
+    opacity: 1;
+    cursor: pointer;
+}
+main{
+    background-image: url(./../Images/PIC3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
